@@ -20,7 +20,7 @@ function personagemJogo(){
         else if (escolha == 1){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>VOCÊ ESCOLHEU ERRADO! GAME OVER</p>
+            <p>COM UM SUPER SOLO DE GUITARRA, MOICANO DESESTABILIZA AS PARTÍCULAS DE AREIA E REVIDA! GAME OVER</p>
             <a href="../index.html"><button class="play">REINICIAR</button></a>
             `)
             break;

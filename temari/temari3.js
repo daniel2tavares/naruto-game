@@ -4,15 +4,15 @@ function personagemJogo(){
 
     while(true){
 
-        var escolha = prompt("1 - Manipula a areia e faz um grande casulo de proteção \n 2 - Manipula a natureza formando rochas para atacar os Gremlins");
+        var escolha = prompt("1 - Usa seu leque como escudo para depois revidar com um golpe. \n 2 - Tenta a técnica foice da doninha.");
 
         if(escolha == 1){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>Quando todos os gremlins o atacam, param em seu casulo de areia, e ele os lança para longe, deixando-os atordoados. Qual será o ataque final de Gaara.</p>
-            <p>1 - Se transforma em jinchuriki e ataca com toda sua força</p>
-            <p>2 - Faz um super roda moinho de areia e abre o céu para o sol aparecer</p>
-            <a href="gaara4.html"><button class="play">ESCOLHER</button></a>
+            <p>Seu leque de ferro a protege do ataque e já dá uma opção de contra golpe. Qual deve ser o ataque letal de Temari?</p>
+            <p>1 - Ela usa o fusajin no jutso para um ataque da natureza.</p>
+            <p>2 - Usa o kamaitachi no jutso e lança Teca por cima da névoa de areia, chegando a altura onde se vê o sol.</p>
+            <a href="temari4.html"><button class="play">ESCOLHER</button></a>
             `)
             break;
         }
@@ -20,7 +20,7 @@ function personagemJogo(){
         else if (escolha == 2){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>VOCÊ ESCOLHEU ERRADO! GAME OVER</p>
+            <p>COM VÁRIAS BEIJOCAS, TECA ATORDOA SUA DONINHA! GAME OVER</p>
             <a href="../index.html"><button class="play">REINICIAR</button></a>
             `)
             break;

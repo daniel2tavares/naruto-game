@@ -4,12 +4,12 @@ function personagemJogo(){
 
     while(true){
 
-        var escolha = prompt("1 - Se transforma em jinchuriki e ataca com toda sua força \n 2 - Faz um super roda moinho de areia e abre o céu para o sol aparecer");
+        var escolha = prompt("1 - Ela usa o fusajin no jutso para um ataque da natureza. \n 2 - Usa o kamaitachi no jutso e lança Teca por cima da névoa de areia, chegando a altura onde se vê o sol.");
 
         if(escolha == 2){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>VOCÊ ABRIU O CÉU, O SOL APARECEU E DERRETEU MOICANO E SUA GANGUE, VOCÊ VENCEU, PARABÉNS!</p>
+            <p>QUANDO TECA VIU O SOL, DERRETEU NÃO SOBRANDO NEM O BATOM. VOCÊ VENCEU, PARABÉNS!</p>
             <a href="../index.html"><button class="play">JOGAR NOVAMENTE</button></a>
             `)
             break;
@@ -18,7 +18,7 @@ function personagemJogo(){
         else if (escolha == 1){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>VOCÊ ESCOLHEU ERRADO! GAME OVER</p>
+            <p>TECA DESTROI O QUE VEM PELA FRENTE E TE DÁ O BEIJO DA MORTE! GAME OVER</p>
             <a href="../index.html"><button class="play">REINICIAR</button></a>
             `)
             break;

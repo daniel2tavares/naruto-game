@@ -4,15 +4,15 @@ function personagemJogo(){
 
     while(true){
 
-        var escolha = prompt("1 - Mesmo assim Gaara arrisca usar sua manipulação de areia \n 2 - Gaara usa seu ninjutsu para atacar Moicano e sua guitarra");
+        var escolha = prompt("1 - Vai até Mogwai para pega-lo achando que é apenas um bichinho indefeso. \n 2 - Faz com que uma de suas marionetes veja o que é.");
 
         if(escolha == 2){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>Gaara faz um ataque ninjutsu e consegue destruir a guitarra de Moicano. Moicano chama toda a gangue para atacar Gaara ao mesmo tempo. O que ele deve fazer ?</p>
-            <p>1 - Manipula a areia e faz um grande casulo de proteção</p>
-            <p>2 - Manipula a natureza formando rochas para atacar os Gremlins</p>
-            <a href="gaara3.html"><button class="play">ESCOLHER</button></a>
+            <p>Mogwai voa na jugular achando que era humano. E agora, o que Kankuro deve fazer?</p>
+            <p>1 - Usa sua marionete para prender Mogwai.</p>
+            <p>2 - Tenta acalmar o monstrinho.</p>
+            <a href="kankuro3.html"><button class="play">ESCOLHER</button></a>
             `)
             break;
         }
@@ -20,7 +20,7 @@ function personagemJogo(){
         else if (escolha == 1){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>VOCÊ ESCOLHEU ERRADO! GAME OVER</p>
+            <p>TOMA AQUELA FINALIZAÇÃO NO PESCOÇO! GAME OVER</p>
             <a href="../index.html"><button class="play">REINICIAR</button></a>
             `)
             break;

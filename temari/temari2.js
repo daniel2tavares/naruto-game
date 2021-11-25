@@ -4,23 +4,23 @@ function personagemJogo(){
 
     while(true){
 
-        var escolha = prompt("1 - Mesmo assim Gaara arrisca usar sua manipulação de areia \n 2 - Gaara usa seu ninjutsu para atacar Moicano e sua guitarra");
+        var escolha = prompt("1 - Usa seu leque para joga-la longe. \n 2 - Pensa bem na estratégia de ataque, pois não sabe o que aquele perfume pode fazer.");
 
-        if(escolha == 2){
+        if(escolha == 1){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>Gaara faz um ataque ninjutsu e consegue destruir a guitarra de Moicano. Moicano chama toda a gangue para atacar Gaara ao mesmo tempo. O que ele deve fazer ?</p>
-            <p>1 - Manipula a areia e faz um grande casulo de proteção</p>
-            <p>2 - Manipula a natureza formando rochas para atacar os Gremlins</p>
-            <a href="gaara3.html"><button class="play">ESCOLHER</button></a>
+            <p>Teca é jogada para longe, mas volta com mais raiva ainda. Apaixonou no leque de Temari e vai tentar pega-lo pra si. O que Temari vai fazer?</p>
+            <p>1 - Usa seu leque como escudo para depois revidar com um golpe.</p>
+            <p>2 - Tenta a técnica foice da doninha.</p>
+            <a href="temari3.html"><button class="play">ESCOLHER</button></a>
             `)
             break;
         }
 
-        else if (escolha == 1){
+        else if (escolha == 2){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>VOCÊ ESCOLHEU ERRADO! GAME OVER</p>
+            <p>PENSOU MUITO! GAME OVER</p>
             <a href="../index.html"><button class="play">REINICIAR</button></a>
             `)
             break;

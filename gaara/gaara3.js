@@ -20,7 +20,7 @@ function personagemJogo(){
         else if (escolha == 2){
 
             document.getElementById("resposta-jogo").innerHTML = (`
-            <p>VOCÊ ESCOLHEU ERRADO! GAME OVER</p>
+            <p>VOCÊ AS ROCHAS NÃO SÃO SUFICIENTES PARA TANTOS GREMLINS! GAME OVER</p>
             <a href="../index.html"><button class="play">REINICIAR</button></a>
             `)
             break;
