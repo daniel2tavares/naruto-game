@@ -59,6 +59,43 @@ main{
 
 }
 
+.textos-jogo{
+
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 55%;
+    height: 30%;
+    font-family: monospace;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 50px;
+
+}
+
+button{
+
+    color: white;
+    padding: 10px 35px;
+    background-color: tomato;
+    border: none;
+    border-radius: 30px;
+    font-family: monospace;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+button:hover{
+
+    background-color: rgb(245, 148, 131);
+
+}
+
 .personagens{
     width: 50%;
     height: auto;
